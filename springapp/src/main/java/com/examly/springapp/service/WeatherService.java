@@ -1,6 +1,6 @@
 package com.examly.springapp.service;
 
-import com.examly.springapp.model.Weather;
+import com.examly.springapp.entity.Weather;
 import com.examly.springapp.repository.WeatherRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -49,6 +49,6 @@ weather.setTimestamp(LocalDateTime.now());
 
 weatherRepository.save(weather);
 return weather;
-}
-}
+    }
+    }
                                                                         
